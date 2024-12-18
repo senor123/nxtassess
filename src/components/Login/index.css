@@ -1,0 +1,82 @@
+.loginsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 468px;
+  width: 456px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+}
+.loginlogo {
+  height: 56px;
+  width: 98px;
+  color: #263868;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginimage {
+  margin-top: 30px;
+}
+
+.nxtlogin {
+  font-family: Futura Md BT;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.nxtaccess {
+  font-family: Futura Md BT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.loginform {
+  margin-top: 100px;
+}
+.loginfield {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.loginlabel {
+  color: #7e858e;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.logininput {
+  height: 40px;
+  width: 360px;
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+}
+.displaypassword {
+  margin-left: 50px;
+}
+.submitbtn{
+  width: 360px;
+  margin-top: 25px;
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #263868;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
